@@ -1,1 +1,3 @@
-Rails app generated with [lewagon/rails-templates](https://github.com/lewagon/rails-templates), created by the [Le Wagon coding bootcamp](https://www.lewagon.com) team.
+Had a problem with Devise set up => I can't use bcrypt on Apple M1 Chip
+
+Got this solved by first uninstalling bcrypt with gem uninstall bcrypt, then bundle install (or gem install bcrypt)
